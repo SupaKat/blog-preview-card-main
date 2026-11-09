@@ -1,4 +1,8 @@
-
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree;
+  font-size: 16px;
+}
 
 .flex-container {
   display: flex;
@@ -7,9 +11,71 @@
   min-height: 100vh;
   padding: 16px;
   box-sizing: border-box;
-  background-color: aqua;
 }
 
 .center-container {
-  background-color: pink;
+  background-color: hsl(0, 0%, 100%);
+  width: 100%;
+  max-width: 365px;
+  height: fit-content;
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 20px;
+  border: solid;
+  border-width: 1px;
+}
+
+.illustration-container {
+  width: 100%;
+  height: 24vh;
+}
+
+.illustration-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.learning-box {
+  background-color: hsl(47, 88%, 63%);
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+h1 {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.information-text {
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  font-weight: 950;
+  color: hsl(0, 0%, 7%);
+  margin-top: 25px;
+}
+
+.avatar-image {
+  height: 100%;
+  margin-right: 15px;
 }
